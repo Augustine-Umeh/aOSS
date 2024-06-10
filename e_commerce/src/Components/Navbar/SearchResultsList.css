@@ -1,0 +1,13 @@
+.results-list {
+    width: inherit;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 8px #ddd;
+    border-radius: 10px;
+    margin-top: 3rem;
+    max-height: 300px;
+    overflow-y: scroll;
+    position: absolute; /* or 'absolute' */
+    z-index: 1000;
+}

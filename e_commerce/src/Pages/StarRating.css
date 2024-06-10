@@ -1,0 +1,42 @@
+/* StarRating.css */
+
+.rating-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 27px; /* Adjust this value to pull down */
+}
+
+.rating-number {
+    font-size: 18px; /* Adjust the font size as needed */
+    margin-bottom: 10px; /* Space between rating number and stars */
+}
+
+.rate {
+    display: flex;
+}
+
+.star {
+    display: inline-block;
+    font-size: 24px; /* Adjust size as needed */
+    color: lightgray; /* Color for empty stars */
+    position: relative;
+}
+
+.star.full {
+    color: gold; /* Color for full stars */
+}
+
+.star.partial {
+    color: lightgray; /* Base color for empty part of the partial star */
+    position: relative;
+}
+
+.star.partial::before {
+    content: '★';
+    color: gold; /* Color for filled part of the partial star */
+    position: absolute;
+    left: 0;
+    width: var(--star-fill); /* Dynamically set width based on --star-fill */
+    overflow: hidden;
+}

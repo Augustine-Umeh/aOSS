@@ -1,0 +1,17 @@
+.search-result {
+    padding: 10px 20px;
+}
+
+.search-result:hover {
+    background-color: #efefef;
+}
+
+.search-result-link {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.search-result-link:hover {
+    color: tan; /* or any color you prefer */
+}

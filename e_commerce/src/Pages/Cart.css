@@ -1,0 +1,20 @@
+/* Cart.css */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Additional content styles to ensure it is not hidden by the fixed navbar */
+.main-content {
+  margin-top: 60px; /* Adjust this value based on the navbar height */
+}
+
+.cart-owner{
+  color: #1d404d;
+  font-family: 'YourPreferredFont', sans-serif;
+}
+
+
+
+
